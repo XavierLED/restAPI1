@@ -1,4 +1,4 @@
-module main
+module restAPI1
 
 go 1.25.0
 
