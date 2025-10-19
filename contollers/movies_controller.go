@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"net/http"
-	"rest1/models"
+	"restAPI1/models"
 
 	"github.com/gin-gonic/gin"
 )

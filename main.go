@@ -4,7 +4,6 @@ import (
 	"go_mongo/models"
 	"log"
 	controllers "restAPI1/contollers"
-	"restAPI1/controllers"
 
 	"github.com/gin-gonic/gin"
 )
