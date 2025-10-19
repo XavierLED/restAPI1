@@ -104,7 +104,7 @@ func FindAll(movieName string) []Movie {
 	if err != nil {
 		log.Fatal(err)
 	}
-	err = cursor.All(context.TODO(), results)
+	err = cursor.All(context.TODO(), &results)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -121,7 +121,7 @@ func ListAll() []Movie {
 	if err != nil {
 		log.Fatal(err)
 	}
-	err = cursor.All(context.TODO(), results)
+	err = cursor.All(context.TODO(), &results)
 	if err != nil {
 		log.Fatal(err)
 	}

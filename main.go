@@ -1,9 +1,9 @@
 package main
 
 import (
-	"go_mongo/models"
 	"log"
 	controllers "restAPI1/contollers"
+	"restAPI1/models"
 
 	"github.com/gin-gonic/gin"
 )
